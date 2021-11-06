@@ -8,10 +8,11 @@
 
     <Button
         android:id="@+id/typeDateBtn"
-        android:layout_width="319dp"
-        android:layout_height="0dp"
+        android:layout_width="352dp"
+        android:layout_height="78dp"
         android:layout_marginBottom="165dp"
         android:text="Type Date"
+        android:textColor="#a9e9f6"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:textColor="#a9e9f6"
         android:textAlignment="textStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,11 +34,12 @@
 
     <TextView
         android:id="@+id/mainBanner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="265dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="321dp"
-        android:text="Age in Minutes!"
+        android:text="Age in Mins!"
+        android:textColor="#a9e9f6"
         android:textAlignment="center"
         android:textSize="60sp"
         android:textStyle="bold"
@@ -46,10 +49,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/inMinsTv"
+        android:id="@+id/ageinMinsTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="34sp"
+        android:textColor="#a9e9f6"
         app:layout_constraintBottom_toTopOf="@+id/typeDateBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
