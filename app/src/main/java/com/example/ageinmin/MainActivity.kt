@@ -47,6 +47,8 @@ class MainActivity : AppCompatActivity() {
                 val diffInMinutes = currentDateInMinutes - selectedDateInMinutes
 
                 ageinMinsTv.setText(diffInMinutes.toString())
+                ageInDaysTv.setText((diffInMinutes/1440).toString())
+                inDays.setText("in Days")
 
             }, year, month, day
         )
